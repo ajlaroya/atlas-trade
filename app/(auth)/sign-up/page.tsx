@@ -15,8 +15,6 @@ import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 
-// 2:38:14
-
 const SignUp = () => {
   const router = useRouter();
   const {
