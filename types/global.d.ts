@@ -215,6 +215,22 @@ declare global {
     threshold: number;
     changePercent?: number;
   };
+
+  type UserForNewsEmail = {
+    email: string;
+    name?: string;
+    // add any additional fields returned by getAllUsersForNewsEmail if needed
+  };
+
+  type MarketNewsArticle = {
+    source?: string;
+    headline?: string;
+    summary?: string;
+    url?: string;
+    symbol?: string;
+    datetime?: string | number;
+    // include other fields returned by getNews if required
+  };
 }
 
 export {};
